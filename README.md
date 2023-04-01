@@ -1,16 +1,18 @@
 <html>
-  <center>
-    <h1 id="undertale-deltarune">UNDERTALE & DELTARUNE</h1>
-    <h2 id="newsletter-archive">Newsletter Archive</h2>
-    <br />
-    <p>
-      <a href="https://discord.com/invite/neZCJwrqRX"
-        ><img
-          src="https://img.shields.io/badge/discord-blue?style=for-the-badge&amp;logo=discord&amp;color=c58dda&amp;logoColor=eceff4&amp;labelColor=262a35"
-          alt="Discord"
-      /></a>
-    </p>
-  </center>
+  <div align="center">
+    <center>
+      <h1 id="undertale-deltarune">UNDERTALE & DELTARUNE</h1>
+      <h2 id="newsletter-archive">Newsletter Archive</h2>
+      <br />
+      <p>
+        <a href="https://discord.com/invite/neZCJwrqRX"
+          ><img
+            src="https://img.shields.io/badge/discord-blue?style=for-the-badge&amp;logo=discord&amp;color=c58dda&amp;logoColor=eceff4&amp;labelColor=262a35"
+            alt="Discord"
+        /></a>
+      </p>
+    </center>
+   </div>
 </html>
 
 This is an **unofficial** archive of Fangamer's UNDERTALE & DELTARUNE newsletter.
@@ -25,4 +27,4 @@ archival purposes only.
 ## Issues
 
 1. [Winter 2022](src/deltarune_newsletter_1-winter-2022.html)
-2. [Spring 2023](src/deltarune_newsletter_2-spring-2023.html) 
+2. [Spring 2023](src/deltarune_newsletter_2-spring-2023.html)
