@@ -9,12 +9,20 @@ jobs:
       - name: Install Prettier
         run: |
           npm install -g prettier
+      - name: Get changed files
+        uses: tj-actions/changed-files@v35
+        with:
+          since_last_remote_commit: "true"
+          files: |
+            '**/*.css'
+            '**/*.html'
+            '**/*.md' 
+      - name: Run Prettier
+        run: |
+          prettier --write ${{ steps.changed-files.outputs.all_changed_files }}
       - name: Get modified files
         id: modified-files
         run: echo "::set-output name=all_modified_files::$(git status --porcelain | sed s/^...// | sed -z 's/\n/%0A/g;s/%0A$/\n/')"
-      - name: Run Prettier
-        run: |
-          prettier --write ${{ steps.modified-files.outputs.all_modified_files }}
       - name: Commit and push changes
         if: ${{ steps.modified-files.outputs.all_modified_files }}
         uses: swinton/commit@v2.x
