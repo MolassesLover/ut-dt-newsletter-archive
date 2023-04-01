@@ -1,0 +1,29 @@
+name: optimize
+on: [push]
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - name: Install oxipng
+        uses: baptiste0928/cargo-install@v2
+        with:
+          crate: oxipng
+          version: latest
+      - name: Get modified files
+        id: modified-files
+        run: echo "::set-output name=all_modified_files::$(git status --porcelain | sed s/^...// | sed -z 's/\n/%0A/g;s/%0A$/\n/')"
+      - name: Run oxipng
+        run: |
+          oxipng -o 3 -i 0 --strip safe ${{ steps.modified-files.outputs.all_modified_files }}
+      - name: Commit and push changes
+        if: ${{ steps.modified-files.outputs.all_modified_files }}
+        uses: swinton/commit@v2.x
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: |
+            ${{ steps.modified-files.outputs.all_modified_files }}
+          commit-message: "Automatically optimized images!"
+          ref: ${{ github.ref }}
