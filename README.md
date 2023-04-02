@@ -15,16 +15,13 @@
    </div>
 </html>
 
-This is an **unofficial** archive of Fangamer's UNDERTALE & DELTARUNE newsletter.
-No one involved with the archival is affiliated with Fangamer in any professional
-capacity. Furthermore, Fangamer is not affiliated with this project, and they
-reserve all rights to the files within the [`img/`](img/) and [`src/`](src/)
-directories.
+This is an **unofficial, fan-made** archive of Fangamer's
+UNDERTALE & DELTARUNE newsletter. No one involved with the
+archival is affiliated with Fangamer or the development of
+UNDERTALE & DELTARUNE in any capacity. Furthermore, Fangamer
+is not affiliated with this project, and they, along with all
+other respective copyright holders, reserve all rights to the 
+files within the [`img/`](img/) and [`src/`](src/) directories.
 
 The contents of this repository are provided at no cost, and are granted for
 archival purposes only.
-
-## Issues
-
-1. [Winter 2022](src/deltarune_newsletter_1-winter-2022.html)
-2. [Spring 2023](src/deltarune_newsletter_2-spring-2023.html)
