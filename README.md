@@ -29,7 +29,7 @@ is not affiliated with this project, and they, along with all
 other respective copyright holders, reserve all rights to the
 files within the [`img/`](img/) and [`src/`](src/) directories.
 
-The contents of this repository are provided at no cost, and are 
+The contents of this repository are provided at no cost, and are
 granted for archival purposes only.
 
 ## Contributing & Hacking
