@@ -11,12 +11,20 @@ jobs:
         with:
           crate: oxipng
           version: latest
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+          since_last_remote_commit: "true"
+          files: |
+            **/*.png
+      - name: Run oxipng
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          oxipng -o 3 -i 0 --strip safe ${{ steps.changed-files.outputs.all_changed_files }}
       - name: Get modified files
         id: modified-files
         run: echo "::set-output name=all_modified_files::$(git status --porcelain | sed s/^...// | sed -z 's/\n/%0A/g;s/%0A$/\n/')"
-      - name: Run oxipng
-        run: |
-          oxipng -o 3 -i 0 --strip safe ${{ steps.modified-files.outputs.all_modified_files }}
       - name: Commit and push changes
         if: ${{ steps.modified-files.outputs.all_modified_files }}
         uses: swinton/commit@v2.x
@@ -25,5 +33,5 @@ jobs:
         with:
           files: |
             ${{ steps.modified-files.outputs.all_modified_files }}
-          commit-message: "Automatically optimized images!"
+          commit-message: "Automatically reformatted code!"
           ref: ${{ github.ref }}
