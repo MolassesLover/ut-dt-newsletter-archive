@@ -40,6 +40,6 @@ it to properly clone the images in the [`img/`](img/) directory.
 ### Cloning
 
 ```sh
-git lfs clone https://github.com/MolassesLover/UT_DR_Newsletter_Archive.git
-cd 'UT_DR_Newsletter_Archive'
+➜ git lfs clone https://github.com/MolassesLover/UT_DR_Newsletter_Archive.git
+➜ cd 'UT_DR_Newsletter_Archive'
 ```
