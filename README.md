@@ -29,6 +29,17 @@ is not affiliated with this project, and they, along with all
 other respective copyright holders, reserve all rights to the
 files within the [`img/`](img/) and [`src/`](src/) directories.
 
-The contents of this repository are provided at no cost, and are granted for
-archival purposes only.
+The contents of this repository are provided at no cost, and are 
+granted for archival purposes only.
 
+## Contributing & Hacking
+
+This repository uses the Git LFS extension! Make sure to install
+it to properly clone the images in the [`img/`](img/) directory.
+
+### Cloning
+
+```sh
+git lfs clone https://github.com/MolassesLover/UT_DR_Newsletter_Archive.git
+cd 'UT_DR_Newsletter_Archive'
+```
