@@ -16,7 +16,7 @@
             alt="GitHub Pages site"
         /></a>
       </p>
-      <img src="img/deltarune_newsletter_2-spring-2023/balloon-dog.gif">
+      <img src="/img/deltarune_newsletter_2-spring-2023/balloon-dog.gif">
     </center>
    </div>
 </html>
