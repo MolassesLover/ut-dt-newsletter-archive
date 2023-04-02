@@ -16,7 +16,7 @@
             alt="GitHub Pages site"
         /></a>
       </p>
-      <img src="/img/deltarune_newsletter_2-spring-2023/balloon-dog.gif">
+      <img src="https://user-images.githubusercontent.com/60114762/229373335-662667a0-e841-4539-8413-54caeb3662e6.gif">
     </center>
    </div>
 </html>
@@ -31,3 +31,4 @@ files within the [`img/`](img/) and [`src/`](src/) directories.
 
 The contents of this repository are provided at no cost, and are granted for
 archival purposes only.
+
