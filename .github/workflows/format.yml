@@ -14,9 +14,7 @@ jobs:
         with:
           since_last_remote_commit: "true"
           files: |
-            '**/*.css'
-            '**/*.html'
-            '**/*.md' 
+            **/*.{css,html,md}
       - name: Run Prettier
         run: |
           prettier --write ${{ steps.changed-files.outputs.all_changed_files }}
