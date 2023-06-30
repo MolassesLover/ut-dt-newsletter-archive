@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>UNDERTALE / DELTARUNE NEWSLETTER - UNOFFICIAL ARCHIVE</title>
+		<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/index.html</link>
+		<description>An unofficial, fan-made archive of Fangamer's UNDERTALE &#38; DELTARUNE newsletter.</description>
+		<item>
+			<title>ISSUE 3</title>
+			<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/deltarune_newsletter_3-summer-2023.html</link>
+			<description>What's that...!? It sounds like... the SUN!?</description>
+			<image>https://molasseslover.github.io/UT_DR_Newsletter_Archive/img/deltarune_newsletter_3-summer-2023/alphys_sippy.png</image>
+		</item>
+		<item>
+			<title>ISSUE 2</title>
+			<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/deltarune_newsletter_2-spring-2023.html</link>
+			<description>Welcome to Spring! Can you believe it's already been three months?!</description>
+			<image>https://molasseslover.github.io/UT_DR_Newsletter_Archive/img/deltarune_newsletter_2-spring-2023/balloon-dog.gif</image>
+		</item>
+		<item>
+			<title>ISSUE 1</title>
+			<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/deltarune_newsletter_1-winter-2022.html</link>
+			<description>Welcome to the first seasonal UNDERTALE &#38; DELTARUNE Newsletter!</description>
+			<image>https://molasseslover.github.io/UT_DR_Newsletter_Archive/img/deltarune_newsletter_1-winter-2022/top-sweaters.png</image>
+		</item>
+	</channel>
+</rss>
