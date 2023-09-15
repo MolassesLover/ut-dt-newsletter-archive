@@ -10,7 +10,7 @@
             src="https://img.shields.io/badge/discord-blue?style=for-the-badge&amp;logo=discord&amp;color=c58dda&amp;logoColor=eceff4&amp;labelColor=262a35"
             alt="Discord"
         /></a>
-        <a href="https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/index.html"
+        <a href="index.html"
           ><img
             src="https://img.shields.io/badge/pages-website-blue?style=for-the-badge&logo=github&color=5b6170&logoColor=eceff4&labelColor=262a35"
             alt="GitHub Pages site"

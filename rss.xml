@@ -2,8 +2,14 @@
 <rss version="2.0">
 	<channel>
 		<title>UNDERTALE / DELTARUNE NEWSLETTER - UNOFFICIAL ARCHIVE</title>
-		<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/index.html</link>
+		<link>index.html</link>
 		<description>An unofficial, fan-made archive of Fangamer's UNDERTALE &#38; DELTARUNE newsletter.</description>
+		<item>
+			<title>ISSUE 4</title>
+			<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/deltarune_newsletter_4-autumn-2023.html</link>
+			<description>It's Autumn! You know what that means...!</description>
+			<image>https://molasseslover.github.io/UT_DR_Newsletter_Archive/img/deltarune_newsletter_4-autumn-2023/toriel-raking-leaves.gif</image>
+		</item>
 		<item>
 			<title>ISSUE 3</title>
 			<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/deltarune_newsletter_3-summer-2023.html</link>
