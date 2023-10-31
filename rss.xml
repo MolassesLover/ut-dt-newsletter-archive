@@ -5,6 +5,11 @@
 		<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/index.html</link>
 		<description>An unofficial, fan-made archive of Fangamer's UNDERTALE &#38; DELTARUNE newsletter.</description>
 		<item>
+			<title>NO LONGER MAINTAINED!</title>
+			<link>https://toby.fangamer.com/newsletters</link>
+			<description>It seems there is now an official archive of the newsletter, and as such this RSS feed will no longer be updated.</description>
+		</item>
+		<item>
 			<title>ISSUE 4</title>
 			<link>https://molasseslover.github.io/UT_DR_Newsletter_Archive/src/deltarune_newsletter_4-autumn-2023.html</link>
 			<description>It's Autumn! You know what that means...!</description>

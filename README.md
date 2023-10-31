@@ -21,6 +21,10 @@
    </div>
 </html>
 
+> **Note**: As of September 2023, there is an
+> [official archive](https://toby.fangamer.com/newsletters/).
+> As such, this repository will no longer be updated!
+
 This is an **unofficial, fan-made** archive of Fangamer's
 UNDERTALE & DELTARUNE newsletter. No one involved with the
 archival is affiliated with Fangamer or the development of
